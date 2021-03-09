@@ -1,3 +1,3 @@
-## Bem vindo ao meu testes de front
+## Bem vindo meu git pag
 
-O codigo esta desenvolvimento, todo conteudo aqui desenvolvido e apenas para demostraçao/testes
+O codigo proposto ainda esta em desenvolvimento
