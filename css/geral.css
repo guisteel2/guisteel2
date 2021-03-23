@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100%;
+    width: auto;
 
     background-image: url("https://image.freepik.com/fotos-gratis/fundo-futurista-abstrato-do-codigo-binario-dos-dados-grandes-da-tecnologia_34629-907.jpg");
     -webkit-background-size: cover;
@@ -57,7 +57,7 @@ body>div{
     margin: auto;
 }
 .painelDublo>div>img{
-    width: 100%;
+    width: 75%;
     height: 100%;
     
     border-radius: 100%;
@@ -74,7 +74,14 @@ body>div{
     cursor: pointer;
     color: White;
     transform: rotatex(360deg);
+
+   
   }
+
+.Painel-2:hover{
+    background-color: #000;
+    border-radius: 250px;
+}
 
  .Painel-baixo>a{
     font-size: 40px;
@@ -125,6 +132,31 @@ body>div{
     margin-left: 30%;
     border-radius: 23px 23px 0px 0px;
 }
+
+.subcaixa {
+    animation: MoveUpDown 5s linear infinite;
+    position: relative;
+
+}
+
+.subInf{
+    width: 50%;
+    margin: auto;
+}
+
+@keyframes MoveUpDown {
+    0% {
+        left: 0;
+      }
+      50% {
+        left: 5%;
+      }
+      100% {
+        left: 0;    
+      }
+}
+
+
 .subcaixa .indic{
     width:100px;
     border-width: 28px 50px 0;
@@ -234,6 +266,18 @@ color: white;
     }
     .navbar .justify-content-end{
         margin: auto;
+    }
+
+    .base-1{
+    
+        border-width: 48px 20px 0px 0px;
+       
+    }
+    
+    .base-2{
+    
+        border-width: 48px 0px 0px 20px;
+       
     }
 }
 @media (max-width: 1000px)
