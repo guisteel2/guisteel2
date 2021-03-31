@@ -168,6 +168,7 @@ var vue = new Vue({
         this.error.telefone = "";
         this.error.celular = "";
         this.error.endereco = "";
+        this.messageResult = "";
         
       },
       OpenForm : function(show){
