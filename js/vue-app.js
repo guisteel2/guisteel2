@@ -25,14 +25,14 @@ var vue = new Vue({
             if(this.ValidateForm1()){
               vue.ResetForm(1);
               vue.ResetError();
-              vue.messageResult  = "mensagem enviada com sucesso";
+              vue.messageResult  = "Form Fisico enviada com sucesso";
             }
             break;
           case 2:
             if(this.ValidateForm2()){
               vue.ResetForm(2);
               vue.ResetError();
-              vue.messageResult  = "mensagem enviada com sucesso";
+              vue.messageResult  = "Form Juridico enviada com sucesso";
             }
             break;
           default:
